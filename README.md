@@ -6,10 +6,10 @@ ZavqFlix - bu kino va seriallarni onlayn tomosha qilish uchun mo'ljallangan zamo
 
 - 🎬 Kino va seriallar katalogi
 - 🔍 Qidiruv va filtrlash
-- ❤️ Sevimlilar ro'yxati
-- 🎫 Bilet bron qilish tizimi
 - 📱 Responsive dizayn
 - 🌙 Qorong'u tema
+- 🆓 Bepul platform
+- ▶️ YouTube trailer integratsiyasi
 
 ## Texnologiyalar
 
@@ -27,9 +27,8 @@ git clone <repository-url>
 cd ZavqFlix
 ```
 
-2. Client qismini o'rnatish:
+2. Paketlarni o'rnatish:
 ```bash
-cd client
 npm install
 ```
 
@@ -40,7 +39,7 @@ npm run dev
 
 ## Deploy qilish
 
-### Vercel'da deploy qilish:
+### Vercel'da deploy qilish (Tavsiya etiladi):
 ```bash
 npm install -g vercel
 vercel --prod
@@ -61,14 +60,15 @@ npm run deploy
 ## Loyiha tuzilishi
 
 ```
-client/
 ├── public/          # Statik fayllar
 ├── src/
 │   ├── components/  # React komponentlar
 │   ├── pages/       # Sahifa komponentlari
 │   ├── assets/      # Rasmlar va boshqa resurslar
 │   └── ...
-└── ...
+├── package.json     # Loyiha konfiguratsiyasi
+├── vite.config.js   # Vite konfiguratsiyasi
+└── vercel.json      # Deploy konfiguratsiyasi
 ```
 
 ## Hissa qo'shish
@@ -82,3 +82,16 @@ client/
 ## Litsenziya
 
 Bu loyiha MIT litsenziyasi ostida tarqatiladi.
+
+## Demo
+
+🌐 **Live Demo**: [ZavqFlix](https://zavqflix.vercel.app)
+
+## Xususiyatlar
+
+- 🎬 **12 ta mashhur kino** - Eng yaxshi filmlar
+- ▶️ **YouTube trailerlar** - Har bir kino uchun
+- 📱 **Mobile responsive** - Barcha qurilmalarda
+- ⚡ **Fast loading** - Optimallashtirilgan
+- 🎨 **Modern UI** - Netflix kabi dizayn
+- 🆓 **Bepul** - Hech qanday to'lov yo'q
